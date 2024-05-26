@@ -4,7 +4,12 @@
 		"annotations": [],
 		"type": "SqlServer",
 		"typeProperties": {
-			"connectionString": "Integrated Security=True;Data Source=localhost;Initial Catalog=AdventureWorksLT2019",
+			"server": "localhost",
+			"database": "AdventureWorksLT2019",
+			"encrypt": "mandatory",
+			"trustServerCertificate": false,
+			"hostNameInCertificate": "",
+			"authenticationType": "Windows",
 			"userName": "DESKTOP-OSGN7VP\\Hilary",
 			"password": {
 				"type": "AzureKeyVaultSecret",
