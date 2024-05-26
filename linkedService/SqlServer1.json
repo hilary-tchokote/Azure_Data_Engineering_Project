@@ -5,12 +5,12 @@
 		"annotations": [],
 		"type": "SqlServer",
 		"typeProperties": {
-			"server": "localhost",
+			"server": "DESKTOP-OSGN7VP",
 			"database": "AdventureWorksLT2019",
 			"encrypt": "mandatory",
 			"trustServerCertificate": false,
 			"hostNameInCertificate": "",
-			"authenticationType": "SQL",
+			"authenticationType": "Windows",
 			"userName": "hilary",
 			"password": {
 				"type": "SecureString",
